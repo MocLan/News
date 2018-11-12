@@ -85,5 +85,18 @@ public class UserEntity {
         this.roleid = roleid;
     }
 
-
+    @Override
+    public String toString() {
+        return "UserEntity{" +
+                "userid=" + userid +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", firstname='" + firstname + '\'' +
+                ", lastname='" + lastname + '\'' +
+                ", createddate=" + createddate +
+                ", email='" + email + '\'' +
+                ", sex=" + sex +
+                ", roleid=" + roleid +
+                '}';
+    }
 }
